@@ -10,7 +10,7 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+Route::controller('/login', 'LoginController');
 // 给公众号绑定域名所用接口
 //Route::get( '/', 'WeixinController@response_token' );
 // 消息处理接口

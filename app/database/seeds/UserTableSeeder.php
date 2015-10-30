@@ -8,8 +8,8 @@ class UserTableSeeder extends Seeder {
         DB::table( 'users' )->delete();
 
         Sentry::createUser(array(
-            'nickname' => 'hyuyuan',
-            'password' => '58085088',
+            'nickname' => 'tiger',
+            'password' => '666666',
             'real_name' => '黄裕源',
             'phone' => '13580501456',
             'account' => 'hyuyuan',
